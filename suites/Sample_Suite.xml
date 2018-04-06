@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Test Suite" configfailurepolicy="skip" >
+ 
+  <test name="Sample Test Cases" configfailurepolicy="skip">
+		<classes>			
+            <class name="com.framework.apiautomation.test.SampleAPITests" />
+		</classes>
+		</test>
+</suite>
