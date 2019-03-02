@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Confiance Test Suite" configfailurepolicy="skip">
+    <!-- <listeners>
+        <listener class-name="com.confiance.framework.api.report.ExtentReportListener"/>
+    </listeners> -->
+
+    <test name="Confiance Tests" configfailurepolicy="skip">
+        <classes>
+            <class name="com.framework.apiautomation.test.SampleAPITests"/>
+        </classes>
+    </test>
+</suite>

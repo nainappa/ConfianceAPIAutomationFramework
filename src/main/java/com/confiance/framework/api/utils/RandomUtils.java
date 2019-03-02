@@ -3,6 +3,9 @@ package com.confiance.framework.api.utils;
 
 import com.google.common.base.CharMatcher;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -97,5 +100,16 @@ public class RandomUtils {
 
   public static String randomAsciiCharacters(Integer characterAmount) {
     return RandomStringUtils.random(characterAmount, 32, 127, false, false);
+  }
+  
+  public static String replaceURLParams(String strURL, Map<String, String> params){
+    Pattern p = Pattern.compile("(\\{.*?\\})");
+    Matcher m = p.matcher(strURL);
+    while (m.find()) {
+        String val1 = m.group().replace("{", "").replace("}", "");
+        strURL = (strURL.replace(m.group(), params.get(val1)));
+    }
+    System.out.println(strURL);
+    return strURL;
   }
 }
