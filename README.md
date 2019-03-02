@@ -11,6 +11,7 @@ Tools & libraries
 4. Jackson for POJO class mapping
 5. org.json for response parsing
 6. Jxl to extract test data from Excel files
+7. Extent Reports
 
 How it works
 ---------------------------------------
@@ -25,12 +26,14 @@ Main features
 1. Containerized implementation for response body, headers and cookies etc. Response object provided by the each type of method will have all these embedded with it. You can access any data that you need from this object. This helps users not to duplicate their code for any data. 
 
 2. You can also get direct pojo as response. You just need to pass the corresponding response pojo class as parameter to the method.
- 
-3. Utilizes the capabilities of TestNG such as Data provider annotation to separate test data in external file and flexible test suites configuration and management. Also, TestNG generates 2 types of reports, HTML and XML reports. The HTML reports are very descriptive with good statistics.
 
-4. This also has utilities such as Reading data from excel sheets, Date utilities, Random data generators which are most frequently used utils in API automation.
+3. Generates excellent execution reports using Extent Reports.
 
-5. Can be integrated into DevOps environment to accelerate the delivery process. After each Jenkins deployment, test cases can be executed automatically and the generated XML reports can be passed to Jira to log Defects/Tests automatically. Some configurations needed in Jenkins side.
+4. Utilizes the capabilities of TestNG such as Data provider annotation to separate test data in external file and flexible test suites configuration and management. 
+
+5. This also has utilities such as Reading data from excel sheets, Date utilities, Random data generators which are most frequently used utils in API automation.
+
+6. Can be integrated into DevOps environment to accelerate the delivery process. After each Jenkins deployment, test cases can be executed automatically and the generated XML reports can be passed to Jira to log Defects/Tests automatically. Some configurations needed in Jenkins side.
 
 Reporting
 ------------
