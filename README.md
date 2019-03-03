@@ -45,13 +45,13 @@ This framework generates default TestNG Html reports. It also generates very att
 </listeners>
 ```
 Along with the listener,there are also few parameters which you can send from your TestNG.xml file for reports.
-1. ```xml archive.confiance.report ```
+1. ``` archive.confiance.report ```
 If you want to archive the reports send value 'True' (Your reports would be generated under       C:\Users\urusername\Confiance_Execution_Reports\yyyy\mm\ddMMMyy_hhmmss_TestExecution\ConfianceExecutionReport.html). Otherwise you can ignore this parameter.
 
-2. ```xml confiance.report.host ```
+2. ``` confiance.report.host ```
 You can add the host information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
-2. ```xml confiance.report.env ```
+2. ``` confiance.report.env ```
 You can add the Environment information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
 ### Extent Reports Test case view:
