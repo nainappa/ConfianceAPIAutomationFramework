@@ -48,7 +48,7 @@ public class ExtentReportUtil {
   
   public static void logSuccess(String strMethodName){
     logger.log(Status.PASS,
-        MarkupHelper.createLabel(strMethodName + " Test Case PASSED", ExtentColor.GREEN));
+        MarkupHelper.createLabel(strMethodName + " - Test Case PASSED", ExtentColor.GREEN));
   }
   
 }
