@@ -54,6 +54,8 @@ You can add the host information on which you are running your tests. This infor
 2. ``` confiance.report.env ```
 You can add the Environment information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
+For adding log in your test method, use the object ``` ExtentReportUtil.logger ```. This has several options like info, debug, error etc. Please refer the test case example in the repo.
+
 ### Extent Reports Test case view:
 ![Screenshot](Extent_Report_Test_Case_View.png)
 ## Extent Reports Dash Board view:
