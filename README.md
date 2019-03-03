@@ -43,17 +43,18 @@ This framework generates default TestNG Html reports. It also generates very att
 <listeners>
    <listener class-name="com.confiance.framework.api.report.ExtentReportListener"/>
 </listeners>
-
+```
 Along with the listener,there are also few parameters which you can send from your TestNG.xml file for reports.
-1. ```xml archive.confiance.report
-If you want to archive the reports send value 'True' (Your reports would be generated under       C:\Users\<urusername>\Confiance_Execution_Reports\<yyyy>\<mm>\ddMMMyy_hhmmss_TestExecution). Otherwise you can ignore this parameter.
-2. 
+1. ```xml archive.confiance.report ```
+If you want to archive the reports send value 'True' (Your reports would be generated under       C:\Users\urusername\Confiance_Execution_Reports\yyyy\mm\ddMMMyy_hhmmss_TestExecution\ConfianceExecutionReport.html). Otherwise you can ignore this parameter.
+
+2. ```xml confiance.report.host ```
+You can add the host information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
+
+2. ```xml confiance.report.env ```
+You can add the Environment information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
 
-The framework has default TestNG Html reports. But if you want very attractive reporting, you can use below library
-https://github.com/nainappa/TestExecutionReport
-
-This repo has very clear information on how to use these reports.
 
 Feedback & Enhancements
 -----------------------
