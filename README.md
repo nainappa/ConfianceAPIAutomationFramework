@@ -66,7 +66,6 @@ If you want to report any issues or enhancements, please do so in the issue trac
 Future Work
 ------------
 1. Supporting SOAP APIs testing
-2. Integrating with JIRA to log bugs automatically as soon as having bugs.
-3. Supporting Behavior-driven development (BDD) test cases
+2. Supporting Behavior-driven development (BDD) test cases
 
 [1]: http://extentreports.com/docs/versions/3/java/ "Extent Reports"
