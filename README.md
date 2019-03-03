@@ -55,9 +55,9 @@ You can add the host information on which you are running your tests. This infor
 You can add the Environment information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
 ### Extent Reports Test case view:
-![Screenshot](Extent Report Test Case View.png)
+![Screenshot](Extent_Report_Test_Case_View.png)
 ## Extent Reports Dash Board view:
-![Screenshot](Extent Report DashBoard View.png)
+![Screenshot](Extent_Report_DashBoard_View.png)
 
 Feedback & Enhancements
 -----------------------
