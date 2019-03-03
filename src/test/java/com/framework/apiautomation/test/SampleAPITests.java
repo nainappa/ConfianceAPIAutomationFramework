@@ -7,7 +7,6 @@ import java.util.UUID;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.confiance.framework.api.core.BaseClass;
 import com.confiance.framework.api.core.Executor;
 import com.confiance.framework.api.core.Responses;
 import com.confiance.framework.api.report.ExtentReportUtil;

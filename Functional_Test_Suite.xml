@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Confiance Test Suite" configfailurepolicy="skip">
-    <!-- <listeners>
+    <listeners>
         <listener class-name="com.confiance.framework.api.report.ExtentReportListener"/>
-    </listeners> -->
-
+    </listeners>
+    <parameter name="archive.confiance.report" value = "true"/>
+    <parameter name="confiance.report.env" value = "Production"/>
+    <parameter name="confiance.report.host" value = "Your Hostname here"/>
     <test name="Confiance Tests" configfailurepolicy="skip">
         <classes>
             <class name="com.framework.apiautomation.test.SampleAPITests"/>
