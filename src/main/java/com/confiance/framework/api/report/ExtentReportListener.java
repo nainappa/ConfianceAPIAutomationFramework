@@ -38,7 +38,7 @@ public class ExtentReportListener implements ITestListener{
           DateFormat dtMonthFormat = new SimpleDateFormat("M");
           String strCurrYear = dtYearFormat.format(new Date());
           String strCurrMonth = dtMonthFormat.format(new Date());
-          archivePath = System.getProperty("user.home") + File.separator + "TestNg_Metrics_Reports"
+          archivePath = System.getProperty("user.home") + File.separator + "Confiance_Execution_Reports"
               + File.separator + File.separator + strCurrYear + File.separator
               + theMonth(Integer.parseInt(strCurrMonth)) + File.separator;
           archivePath +=
