@@ -20,7 +20,7 @@ Tools & libraries
 
 How it works
 ---------------------------------------
-* This project is aleardy uploaded to Maven central repo. So, just add the below dependency to your POM.xml. 
+* This project is already uploaded to Maven central repo. So, just add the below dependency to your POM.xml. 
    ```xml
    <dependency>
      <groupId>com.github.nainappa</groupId>
