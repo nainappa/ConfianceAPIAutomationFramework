@@ -29,7 +29,7 @@ How it works
   </dependency> 
   
    ```
-* Perform ```maven clean install```
+* Perform ```mvn clean install```
 * You can start writing your test cases now.
 * The sample Tests in the repo will help you to get start. All Sample tests run against http://restapi.demoqa.com/customer/register. 
 
