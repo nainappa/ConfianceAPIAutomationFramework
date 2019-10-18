@@ -13,7 +13,7 @@ public class ExtentReportUtil {
   public static ExtentReports extent;
   public static ExtentTest logger;
   
-  public static void intiateReport(String reportPath, String strHost, String strEnv){
+  public static void intiateReport(String reportPath, String strHost, String strEnv, String strReportName){
     htmlReporter = new ExtentHtmlReporter(reportPath);
     // Create an object of Extent Reports
     extent = new ExtentReports();
@@ -23,9 +23,10 @@ public class ExtentReportUtil {
     strEnv = (strEnv!=null)? strEnv:"Your Env Info Here";
     extent.setSystemInfo("Environment", strEnv);
     extent.setSystemInfo("User Name", System.getProperty("user.name"));
-    htmlReporter.config().setDocumentTitle("Confiance Test Execution Report");
+    strReportName = (strReportName!=null)? strReportName:"Confiance Test Execution Report";
+    htmlReporter.config().setDocumentTitle(strReportName);
     // Name of the report
-    htmlReporter.config().setReportName("Confiance Test Execution Report");
+    htmlReporter.config().setReportName(strReportName);
     // Dark Theme
     htmlReporter.config().setTheme(Theme.STANDARD);
   }

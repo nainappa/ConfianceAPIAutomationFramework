@@ -1,10 +1,11 @@
 package com.confiance.framework.api.core;
 
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.jayway.restassured.http.ContentType;
+
 
 /**
  * Author: Nainappa Illi 
@@ -166,8 +167,8 @@ public class Request {
    * @throws java.security.NoSuchAlgorithmException
    */
   public Responses doExecute() throws Exception {
-    Responses res = RESTWrapper.doRequest(this.getHeaders(), ContentType.JSON,
-        this.getEndpoint().getUrl(), this.getBody().getBodyString(), this.getMethod());
+    Responses res = RESTWrapper.doRequest(this.getHeaders(), "application/json",
+    		this.getEndpoint().getUrl(), this.getBody().getBodyString(), this.getMethod());
     res.setRequest(this);
     return res;
   }

@@ -6,6 +6,7 @@
     <parameter name="archive.confiance.report" value = "true"/>
     <parameter name="confiance.report.env" value = "Production"/>
     <parameter name="confiance.report.host" value = "Your Hostname here"/>
+    <parameter name="confiance.report.reportheader" value = "My Report"/>
     <test name="Confiance Tests" configfailurepolicy="skip">
         <classes>
             <class name="com.framework.apiautomation.test.SampleAPITests"/>

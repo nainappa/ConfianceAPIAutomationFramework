@@ -16,6 +16,7 @@ import org.apache.commons.lang3.StringUtils;
 import com.confiance.framework.api.utils.LoggerUtil;
 
 
+
 public class EndPoint implements Cloneable {
   private String endpoint;
   private Properties urlParams = new Properties();

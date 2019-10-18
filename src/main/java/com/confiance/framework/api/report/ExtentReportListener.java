@@ -22,6 +22,7 @@ public class ExtentReportListener implements ITestListener{
     @Override
     public void onStart(ITestContext context) {
       String strHostName = context.getCurrentXmlTest().getParameter("confiance.report.host");
+      String strReportHeader = context.getCurrentXmlTest().getParameter("confiance.report.reportheader");
       String strEnv = context.getCurrentXmlTest().getParameter("confiance.report.env");
       String archive_report =
           context.getCurrentXmlTest().getParameter("archive.confiance.report");
@@ -67,7 +68,7 @@ public class ExtentReportListener implements ITestListener{
           throw new ReportConfigException("Unable to read report directory", e);
         }
       }
-      ExtentReportUtil.intiateReport(outdir + "/STMExtentReport.html", strHostName, strEnv);
+      ExtentReportUtil.intiateReport(outdir + "/ConfianceExecutionReport.html", strHostName, strEnv, strReportHeader);
     }
 
     @SuppressWarnings("deprecation")
