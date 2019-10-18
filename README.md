@@ -25,7 +25,7 @@ How it works
    <dependency>
      <groupId>com.github.nainappa</groupId>
      <artifactId>confiance-api</artifactId>
-     <version>1.0.1</version>
+     <version>1.0.2</version>
   </dependency> 
   
    ```
