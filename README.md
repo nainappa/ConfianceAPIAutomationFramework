@@ -61,8 +61,11 @@ If you want to archive the reports send value 'true' (Your reports would be gene
 2. ``` confiance.report.host ```
 You can add the host information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
 
-2. ``` confiance.report.env ```
+3. ``` confiance.report.env ```
 You can add the Environment information on which you are running your tests. This information would be shown in Dashboard view of Extent Report. You can ignore it, if you don't want.
+
+4. ``` confiance.report.reportheader ```
+If you want to customize the Report header, you can use this parameter in your TestNg.xml file. You can also choose not to add any name. By default, it shows "Confiance Execution Report" as the header. 
 
 For adding log in your test method, use the object ``` ExtentReportUtil.logger ```. This has several options like info, debug, error etc. Please refer the test case example in the repo.
 
