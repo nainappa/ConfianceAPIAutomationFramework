@@ -9,7 +9,7 @@ Welcome to Confiance API Automation Framework. This is very simple yet powerful 
 ![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 
 Tools & libraries
----------------------------------------
+--------------------------------------
 1. Rest-Assured
 2. Maven 
 3. TestNG
