@@ -1,4 +1,4 @@
-**Thanks for contributing to the Selenium site and documentation!**
+**A sample template**
 **A PR well described will help maintainers to quickly review and merge it**
 
 Before submitting your PR, please check our [contributing](https://selenium.dev/documentation/en/contributing/) guidelines.
